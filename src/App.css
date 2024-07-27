@@ -1,0 +1,22 @@
+#root {
+  min-width: fit-content;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: Poppins;
+}
+.ucbg {
+  background-image: url("assets/uc_building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.greybg {
+  background-image: url("assets/.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blackshadow {
+  text-shadow: 1px 3px 0px black;
+}
