@@ -146,10 +146,10 @@ const Contents = () => {
       <div className="flex flex-col h-screen w-[100vw]">
         <Header />
         <div 
-          className="flex flex-col flex-grow h-auto w-full   bg-cover bg-center bg-no-repeat text-white"
+          className="flex flex-col flex-grow h-auto w-full  bg-cover bg-center bg-no-repeat text-white"
           style={{backgroundImage: `url(${ucBuilding})`, color: "#173218"}} 
         >
-          <div className="flex overflow-hidden relative flex-col self-center pt-20 pr-3 pb-3 pl-6 mt-36 max-w-full min-h-[400px] w-[757px] max-md:pl-5 max-md:mt-10">
+          <div className="flex flex-col items-center backdrop-blur-sm border-white border-solid shadow-inner-custom bg-black/10 rounded-lg overflow-hidden relative self-center pt-20 pr-3 pb-3 pl-6 mt-36 max-w-full min-h-[400px] w-[90vw] max-md:pl-5 max-md:mt-10">
             <img
               loading="lazy"
               src={imagePreview}
@@ -157,10 +157,10 @@ const Contents = () => {
               className="object-contain absolute inset-0 size-full"
             />
             <div className="relative mt-5 max-md:max-w-full flex flex-col items-center">
-              <div className="flex gap-5 max-md:flex-col max-md:gap-0 w-full">
+              <div className="flex gap-20 max-md:flex-col max-md:gap-0 w-full">
                 {/* Container for Excel Spreadsheet Upload */}
-                <div className="flex flex-col w-[50rem] h-72 max-md:w-full p-7 border border-white rounded-lg backdrop-blur-sm bg-black/10">
-                  <div className="self-stretch text-xl font-semibold text-center max-md:mt-10" style={{color: "#173218"}}>
+                <div className="flex flex-col w-[30rem] h-72 max-md:w-full shadow-inner-custom p-7 border border-white rounded-lg backdrop-blur-sm bg-white/5">
+                  <div className="self-stretch text-xl font-semibold text-center max-md:mt-10" style={{color: "#1A2421"}}>
                     Upload Excel Spreadsheet
                   </div>
                   <img src={uploadIcon} alt="Upload Icon" className="self-center mt-5 mb-5" /> {/* PNG Asset */}
@@ -177,9 +177,9 @@ const Contents = () => {
                 </div>
 
                 {/* Container for Certificate Template Upload */}
-                <div className="flex flex-col w-[50rem] h-72 max-md:w-full p-7 border border-white rounded-lg backdrop-blur-sm bg-black/10">
+                <div className="flex flex-col w-[30rem] h-72 max-md:w-full shadow-inner-custom p-7 border border-white rounded-lg backdrop-blur-sm bg-white/5">
                   <div className="flex flex-col grow items-center font-semibold text-center text-xs max-md:mt-10 w-full">
-                    <div className="self-stretch text-xl" style={{color: "#173218"}}>
+                    <div className="self-stretch text-xl" style={{color: "#1A2421"}}>
                       Upload Certificate Template
                     </div>
                     <img src={uploadIcon} alt="Upload Icon" className="self-center mt-5 mb-5" /> {/* PNG Asset */}
@@ -198,13 +198,13 @@ const Contents = () => {
               </div>
             </div>
 
-            <div className="relative self-center pb-5 mt-36 text-2xl shadow-inner rounded-full font-semibold text-center text-black max-md:mt-10">
+            <div className="relative self-center pb-5 mt-36 text-2xl  font-semibold text-center text-black max-md:mt-10">
               <Button
                 trigger={submitData}
                 buttonName={"RUN"}
                 style={{
                   borderRadius: "",
-                  borderWidth: "2px",
+                  borderWidth: "px",
                   borderColor: "white",
                   boxShadow: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.1)",
                   color: "white",
