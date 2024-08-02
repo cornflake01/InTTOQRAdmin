@@ -33,6 +33,7 @@
 }
 
 #preview {
+  padding-top: 70px;
   min-width: 30rem; /* Minimum width of the preview image */
   min-height: 20rem; /* Minimum height of the preview image */
   max-width: auto; /* Maximum width relative to container */
