@@ -152,15 +152,15 @@ const Contents = () => {
             className="flex flex-col flex-grow h-auto w-full bg-cover bg-center bg-no-repeat text-white"
             style={{ backgroundImage: `url(${ucBuilding})`, color: "#173218" }}
           >
-            <div className="flex flex-col items-center backdrop-blur-sm border-white border-solid shadow-inner-custom bg-black/10 rounded-lg overflow-hidden relative self-center pt-20 pr-3 pb-3 pl-6 mt-36 max-w-full min-h-[400px] w-[90vw] max-md:pl-5 max-md:mt-10">
-              <div className="relative mt-5 max-md:max-w-full flex flex-col items-center z-10">
+           <div className="flex flex-col items-center backdrop-blur-3xl border-white border-solid shadow-lg rounded-lg overflow-hidden relative self-center pt-20 pr-3 pb-3 pl-6 mt-20 max-w-full h-auto w-[1400px] max-md:pl-5 max-md:mt-10 bg-gradient-to-b from-[#f8f8f8]/50 to-white/30">
+             <div className="relative mt-5 max-md:max-w-full flex flex-col items-center z-10">
                 <div className="flex gap-20 max-md:flex-col max-md:gap-0 w-full">
                   
                   
                   {/* Container for Excel Spreadsheet Upload */}
-                  <div className="flex flex-col w-[30rem] h-72 max-md:w-full shadow-inner-custom p-7 border border-white rounded-lg backdrop-blur-sm bg-white/5">
-                    <div className="self-stretch text-xl font-semibold text-center max-md:mt-10" style={{ color: "#1A2421" }}>
-                      Upload Excel Spreadsheet
+                <div className="flex flex-col w-auto h-80 max-md:w-full shadow- p-7 border shadow-inner border-white rounded-lg backdrop-blur-sm bg-white/5">
+                  <div className="self-stretch text-xl font-semibold text-center max-md:mt-10">
+                     <h4 className="text-[#013200]">Upload Excel Spreadsheet</h4>
                     </div>
                     <img src={uploadIcon} alt="Upload Icon" className="self-center mt-5 mb-5" /> {/* PNG Asset */}
                     <div className="font-medium w-full text-xs">
@@ -177,10 +177,10 @@ const Contents = () => {
                   </div>
 
                   {/* Container for Certificate Template Upload */}
-                  <div className="flex flex-col w-[30rem] h-72 max-md:w-full shadow-inner-custom p-7 border border-white rounded-lg backdrop-blur-sm bg-white/5">
+                  <div className="flex flex-col w-auto h-80 max-md:w-full shadow-inner p-7 border border-white rounded-lg backdrop-blur-sm bg-white/5">
                     <div className="flex flex-col grow items-center font-semibold text-center text-xs max-md:mt-10 w-full">
-                      <div className="self-stretch text-xl" style={{ color: "#1A2421" }}>
-                        Upload Certificate Template
+                      <div className="self-stretch text-xl">
+                       <h4 className="text-[#013200]">Upload Certificate Template</h4>
                       </div>
                       <img src={uploadIcon} alt="Upload Icon" className="self-center mt-5 mb-5" /> {/* PNG Asset */}
                       <div className="font-medium w-full">
