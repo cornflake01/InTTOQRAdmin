@@ -33,7 +33,6 @@
 }
 
 #preview {
-  padding-top: 70px;
   min-width: 30rem; /* Minimum width of the preview image */
   min-height: 20rem; /* Minimum height of the preview image */
   max-width: auto; /* Maximum width relative to container */
@@ -41,7 +40,7 @@
   width: auto; /* Auto width for scaling */
   height: auto; /* Auto height for scaling */
   position: absolute; /* Center image absolutely */
-  top: 530px; /* Center vertically */
+  top: 560px; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust positioning to center */
 }
