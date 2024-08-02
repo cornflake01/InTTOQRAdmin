@@ -20,3 +20,28 @@
 .blackshadow {
   text-shadow: 1px 3px 0px black;
 }
+
+
+.upload-container {
+  margin-top: 2rem; /* Space above the preview container */
+  margin-bottom: 2rem; /* Space below the preview container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* For absolute positioning of the image */
+}
+
+#preview {
+  min-width: 30rem; /* Minimum width of the preview image */
+  min-height: 20rem; /* Minimum height of the preview image */
+  max-width: auto; /* Maximum width relative to container */
+  max-height: auto; /* Maximum height relative to container */
+  width: auto; /* Auto width for scaling */
+  height: auto; /* Auto height for scaling */
+  position: absolute; /* Center image absolutely */
+  top: 530px; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust positioning to center */
+}
+
