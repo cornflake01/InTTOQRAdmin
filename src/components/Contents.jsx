@@ -158,7 +158,7 @@ const Contents = () => {
                   
                   
                   {/* Container for Excel Spreadsheet Upload */}
-                <div className="flex flex-col w-auto h-80 max-md:w-full shadow- p-7 border shadow-inner border-white rounded-lg backdrop-blur-sm bg-white/5">
+                <div className="flex flex-col w-auto h-80 max-md:w-full shadow- p-7 border shadow-inner border-white rounded-lg backdrop-blur-sm bg-gradient-to-b from-[#f8f8f8]/10 to-white/10">
                   <div className="self-stretch text-xl font-semibold text-center max-md:mt-10">
                      <h4 className="text-[#013200]">Upload Excel Spreadsheet</h4>
                     </div>
@@ -177,7 +177,7 @@ const Contents = () => {
                   </div>
 
                   {/* Container for Certificate Template Upload */}
-                  <div className="flex flex-col w-auto h-80 max-md:w-full shadow-inner p-7 border border-white rounded-lg backdrop-blur-sm bg-white/5">
+                  <div className="flex flex-col w-auto h-80 max-md:w-full shadow-inner p-7 border border-white rounded-lg backdrop-blur-sm bg-gradient-to-b from-[#f8f8f8]/10 to-white/10">
                     <div className="flex flex-col grow items-center font-semibold text-center text-xs max-md:mt-10 w-full">
                       <div className="self-stretch text-xl">
                        <h4 className="text-[#013200]">Upload Certificate Template</h4>
@@ -233,7 +233,7 @@ const Contents = () => {
                   </div>
                   </div>
 
-                  <div className="relative self-center pb-5 mt-80 text-2xl font-semibold text-center text-black max-md:mt-10">
+                  <div className="relative self-center pb-5 mt-80 text-2xl font-semibold text-center text-[#1F3806] max-md:mt-10">
                 <Button
                   trigger={submitData}
                   buttonName={"RUN"}
