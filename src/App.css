@@ -34,14 +34,13 @@
 
 #preview {
   min-width: 30rem; /* Minimum width of the preview image */
-  min-height: 20rem; /* Minimum height of the preview image */
+  min-height: 10rem; /* Minimum height of the preview image */
   max-width: auto; /* Maximum width relative to container */
   max-height: auto; /* Maximum height relative to container */
   width: auto; /* Auto width for scaling */
   height: auto; /* Auto height for scaling */
   position: absolute; /* Center image absolutely */
-  top: 560px; /* Center vertically */
+  top: 460px; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust positioning to center */
 }
-
