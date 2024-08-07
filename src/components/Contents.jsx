@@ -158,7 +158,7 @@ const Contents = () => {
                   
                   
                   {/* Container for Excel Spreadsheet Upload */}
-                <div className="flex flex-col w-auto h-80 max-md:w-full shadow- p-7 border shadow-inner border-white rounded-lg backdrop-blur-sm bg-gradient-to-b from-[#f8f8f8]/10 to-white/10">
+                <div className="flex flex-col w-auto h-52 max-md:w-full shadow- p-7 border shadow-inner border-white rounded-lg backdrop-blur-sm bg-gradient-to-b from-[#f8f8f8]/10 to-white/10">
                   <div className="self-stretch text-xl font-semibold text-center max-md:mt-10">
                      <h4 className="text-[#013200]">Upload Excel Spreadsheet</h4>
                     </div>
@@ -177,7 +177,7 @@ const Contents = () => {
                   </div>
 
                   {/* Container for Certificate Template Upload */}
-                  <div className="flex flex-col w-auto h-80 max-md:w-full shadow-inner p-7 border border-white rounded-lg backdrop-blur-sm bg-gradient-to-b from-[#f8f8f8]/10 to-white/10">
+                  <div className="flex flex-col w-auto h-52 max-md:w-full shadow-inner p-7 border border-white rounded-lg backdrop-blur-sm bg-gradient-to-b from-[#f8f8f8]/10 to-white/10">
                     <div className="flex flex-col grow items-center font-semibold text-center text-xs max-md:mt-10 w-full">
                       <div className="self-stretch text-xl">
                        <h4 className="text-[#013200]">Upload Certificate Template</h4>
@@ -252,15 +252,17 @@ const Contents = () => {
         </div>
         
         {/* footer */}
-        <div className="flex justify-center items-center px-16 py-2 mt-40 w-full text-xs font-semibold text-center text-black bg-white max-md:px-5 max-md:mt-10 max-md:max-w-full">
-            <div className="flex gap-5 max-w-full w-[678px] max-md:flex-wrap">
-              <div>intto@uc-bcf.edu.ph</div>
-              <div className="flex-auto">
-                Legarda Campus, Basement 1, Baguio City 2600s
+        <footer className="mt-auto w-full bg-white text-black">
+              <div className="flex justify-center items-center px-16 py-2 w-full text-xs font-semibold text-center max-md:px-5 max-md:max-w-full">
+                <div className="flex gap-5 max-w-full w-[678px] max-md:flex-wrap">
+                  <div>intto@uc-bcf.edu.ph</div>
+                  <div className="flex-auto">
+                    Legarda Campus, Basement 1, Baguio City 2600
+                  </div>
+                  <div className="flex-auto">(074) 442-3316 loc.no.303</div>
+                </div>
               </div>
-              <div className="flex-auto">(074) 442-3316 loc.no.303</div>
-            </div>
-          </div>
+            </footer>
       </div>
     </div>
     </>
